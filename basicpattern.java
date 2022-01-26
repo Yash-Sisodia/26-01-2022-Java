@@ -5,6 +5,7 @@ public class basicpattern {
         System.out.print("*** \n");
         System.out.print("**** \n");
         System.out.print("***** \n");
+        System.out.print("****** \n");
     }
     
 }
