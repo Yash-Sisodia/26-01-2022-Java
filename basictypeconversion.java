@@ -5,6 +5,7 @@ public class basictypeconversion {
      Scanner scn = new Scanner(System.in);
      float num = scn.nextFloat();
      System.out.print(num);
+     scn.close();
  }
     
 }
