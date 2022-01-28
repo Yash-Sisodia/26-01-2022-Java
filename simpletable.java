@@ -1,14 +1,13 @@
 import java.util.*;
-public class sumofn {
+public class simpletable {
     public static void main(String[] args) {
         System.out.print("Enter any number n = ");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        
-        int sum=0;
-        for(int i = 0 ; i<=n ; i++ ) {
-            sum=sum+i;
+
+        for(int i = 1 ; i<=10 ; i++) {
+        System.out.println(n+" * "+i+" = "+n*i);  
         }
-         System.out.println(sum);  
-    } // 1+2+3+4+5
+
+    }
 }
