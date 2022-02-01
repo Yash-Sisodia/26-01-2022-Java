@@ -12,7 +12,7 @@ public class primenoinrange {
         
             int n =i;
             int count =0;
-            for(int p=1 ; p<=n/2; p++) { //
+            for(int p=1 ; p<=n-1; p++) { //
                 if(n%p==0) {
                     count ++;
                 }
